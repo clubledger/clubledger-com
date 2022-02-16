@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+/* these fonts are licensed. they have been renamed to enable storage (not visible in search <font-name>) in public repository on github */
+@font-face {
+  /* bold italic */
+  font-family: "cxxtt-bi";
+  src: url("/assets/fonts/cxxtt-bi.woff") format("woff");
+}
+
+@font-face {
+  /* bold italic */
+  font-family: "cxxtt-bi";
+  src: url("/assets/fonts/cxxtt-bi.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "cxxs-rs";
+  src: url("../assets/fonts/cxxs-rs.woff") format("woff");
+}
+
+@font-face {
+  font-family: "cxxs-rs";
+  src: url("../assets/fonts/cxxs-rs.woff2") format("woff2");
+}
+
+@import "minima";
+
+.footer-street {
+  color: $dark-green;
+}

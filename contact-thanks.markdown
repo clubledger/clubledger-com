@@ -5,6 +5,6 @@
 layout: home
 ---
 
-Contact form has been submitted.
+The contact form has been submitted.
 
-Thank you for contacting us.
+Thank you.
