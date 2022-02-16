@@ -9,7 +9,7 @@ layout: default
 
     {{ content }}
 
-    {%- if !"no no posts" & site.posts.size > 0 -%}
+    {%- if 0==1 and site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
         {%- for post in site.posts -%}
