@@ -1,4 +1,4 @@
-<form name="contact" method="POST" action="contact-thanks" netlify>
+<form name="contact" method="POST" action="/contact-thanks" netlify>
     <div class="row">
         <div class="col-25">
             <label for="name">Name</label>
@@ -36,8 +36,12 @@
             <textarea name="message" id="message" placeholder="Write your message here" rows="7" required></textarea>
         </div>
     </div>
-    </div>
     <div class="row">
-        <button type="submit" name="submit">Send Message</button>
+        <div class="col-25">
+            &nbsp;
+        </div>
+        <div class="col-75">
+            <button type="submit" name="submit">Send Message</button>
+        </div>
     </div>
 </form>
