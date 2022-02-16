@@ -129,12 +129,14 @@ a {
     text-decoration: underline;
   }
 
-  .social-media-list & {
+  .social-media-list,
+  .contact-list & {
     text-decoration: none;
     color: $dark-green;
   }
 
-  .social-media-list &:hover {
+  .social-media-list,
+  .contact-list &:hover {
     text-decoration: underline;
   }
 }
@@ -223,7 +225,8 @@ pre {
   vertical-align: text-top;
 }
 
-.social-media-list {
+.social-media-list,
+.contact-list {
   li + li {
     padding-top: 5px;
   }

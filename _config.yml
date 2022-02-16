@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   CLUB-LEDGER is an open-source system for tokenising participation in clubs - organisations of people with a common purpose or interest.
 baseurl: "" # the subpath of your site, e.g. /blog
 # for Jekyll SEO
-tagline: Tokenising participation in clubs.
+tagline: Tokens of participation in clubs.
 twitter:
   username: clubledger
   card: summary
