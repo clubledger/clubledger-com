@@ -1,25 +1,17 @@
 ---
 layout: page
+title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is a fun project that grew out of a Blockchain & Legal Innovation course at <a href="https://anu.edu.au" target="_blank">ANU</a> in 2021.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+In February 2022 it is very early days with the project.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+We are working from 1A Brooke St, Hobart, Tasmania.
+\
+\
+\
+<img src="/assets/img/ml50.png" class="promo-image"/>
 
-[jekyll-organization]: https://github.com/jekyll
-
-<ul class="contact-list">
-    {%- if site.email -%}
-    <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    {%- endif -%}
-    {%- if site.street -%}
-    <li class="footer-street">{{ site.street }}</li>
-    {%- endif -%}
-</ul>
+Mark Laugesen
