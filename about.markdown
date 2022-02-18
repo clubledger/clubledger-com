@@ -12,6 +12,6 @@ We are working from 1A Brooke St, Hobart, Tasmania.
 \
 \
 \
-<img src="/assets/img/ml50bw.png" class="promo-image"/>
+<img src="/assets/img/mlbw2.png" class="promo-image"/>
 
 Mark Laugesen
