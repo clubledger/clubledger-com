@@ -118,7 +118,7 @@ h6 {
  */
 a {
   color: $text-color;
-  text-decoration: none;
+  text-decoration: underline;
 
   &:visited {
     color: darken($text-color, 15%);

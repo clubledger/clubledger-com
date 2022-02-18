@@ -22,9 +22,11 @@
   &,
   &:visited {
     color: $brand-color;
+    text-decoration: none;
   }
   &:hover {
     color: $brand-color;
+    text-decoration: underline;
   }
 }
 
@@ -43,6 +45,14 @@
   .page-link {
     color: $dark-green;
     line-height: $base-line-height;
+
+    &,
+    &:visited {
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -115,6 +125,18 @@
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+}
+
+.footer-link {
+  &,
+  &:visited {
+    color: $dark-green;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $dark-green;
+    text-decoration: underline;
+  }
 }
 
 .contact-list,
