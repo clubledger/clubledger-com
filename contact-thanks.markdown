@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /message-thanks/
+permalink: /contact-thanks/
 ---
 
 The message has been received.
